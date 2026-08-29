@@ -1,0 +1,1232 @@
+body {
+    margin: 0;
+    padding: 0px 30px 30px 10px;
+    
+    background-image: url("final.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    
+    color: #43291f;
+}
+
+header {
+    padding: 40px 20px 10px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+main {
+    padding:5px 20px 10px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    padding:20px 7px;
+}
+h2{
+    font-size: 30px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+button:hover {
+    transform: translateY(4px);
+}
+
+footer {
+    padding: 10px;
+    margin-top:20px;
+}
+.wall-text {
+    font-size: 24px;
+    padding: 10px 15px 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    background-color: #c9a77f;
+    width: 70%;
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 25px 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+    body {
+    text-align: center;
+    width: 100%;
+}
+.diary {
+    background-color: #E8D5C4;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
+    background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 39px,
+    #c9b8a5 40px
+);
+}
+
+.diary h2 {
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.diary p {
+    font-size: 19px;
+    line-height: 1.7;
+}
+.diary h2 {
+    background-color: #F5E6D3;
+    padding: 15px 25px;
+    width: fit-content;
+    margin: 35px auto 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.12);
+}
+.diary p {
+    font-size: 19px;
+    line-height: 1.8;
+    text-align: left;
+    margin: 25px auto;
+    max-width: 700px;
+}
+.diary h2 {
+    position: relative;
+}
+
+.diary h2::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 35%;
+    width: 70px;
+    height: 20px;
+    background-color: #D6B89E;
+    transform: rotate(-3deg);
+}
+.back-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #D6B89E;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.date {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.7;
+}
+.diary-photo {
+    width: 250px;
+    float: right;
+    margin: 20px 40px 20px 10px;
+    position: relative;
+}
+
+/* =========================
+   GIRLHOOD DIARIES PAGE
+   ========================= */
+
+.diaries-page {
+    min-height: 100vh;
+    padding: 45px 40px 70px;
+    text-align: center;
+    color: #3b251c;
+}
+
+.diaries-page h1 {
+    font-size: 64px;
+    margin: 10px 0 20px;
+    font-family: Georgia, serif;
+    color: #3b251c;
+}
+
+.diaries-page .intro {
+    font-size: 27px;
+    font-style: italic;
+    margin-bottom: 55px;
+    color: #654b3d;
+}
+
+/* Diary buttons */
+
+.diary-list {
+    background-color: #9d7b5c;
+    width: 80%;
+    max-width: 1100px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.diary-list a {
+    width: 100%;
+    text-decoration: none;
+    color: #3b251c;
+}
+
+.diary-list .card {
+    width: 100%;
+    box-sizing: border-box;
+
+    background: #d3d3b5;
+    border-radius: 60px;
+
+    padding: 24px 40px;
+    margin: 0;
+
+    font-family: Georgia, serif;
+    font-size: 30px;
+    text-align: center;
+
+    transition: 0.3s ease;
+}
+
+/* Small vintage hover effect */
+
+.diary-list .card:hover {
+    transform: translateY(-3px);
+    background: #c8c8a8;
+    box-shadow: 0 8px 18px rgba(70, 50, 35, 0.15);
+}
+/* SECOND DIARY - A DAY WITHOUT STRESS */
+
+.diary-page {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 50px 70px;
+    background: #ead8c2;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 39px,
+        rgba(100, 70, 50, 0.15) 40px
+    );
+    color: #3d261b;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(80, 50, 30, 0.15);
+}
+
+.diary-page h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 55px;
+    margin-bottom: 30px;
+    color: #3d261b;
+}
+
+.diary-page .intro {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.8;
+    margin: 20px auto 50px;
+    max-width: 850px;
+}
+
+.diary-page h2 {
+    width: fit-content;
+    margin: 45px auto 25px;
+    padding: 18px 45px;
+    background: #f5e6d1;
+    border-radius: 12px;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    box-shadow: 0 6px 15px rgba(80, 50, 30, 0.15);
+}
+
+.diary-page p {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    line-height: 2;
+    text-align: center;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+.diary-page .back-button {
+    display: block;
+    width: fit-content;
+    margin: 50px auto 10px;
+    padding: 14px 30px;
+    background: #d8b99b;
+    color: #3d261b;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.diary-page .back-button:hover {
+    background: #c9a887;
+}
+/*home page design*/
+/* =================================
+   VINTAGE GIRLHOOD WALL - HOME PAGE
+   ================================= */
+
+.home-page {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #705b3b;
+
+    /* Old paper effect */
+    background-image:
+        radial-gradient(circle at 20% 20%, rgba(90, 60, 40, 0.08) 0 1px, transparent 2px),
+        radial-gradient(circle at 80% 70%, rgba(90, 60, 40, 0.06) 0 1px, transparent 2px),
+        repeating-linear-gradient(
+            0deg,
+            rgba(90, 60, 40, 0.025) 0px,
+            rgba(90, 60, 40, 0.025) 1px,
+            transparent 1px,
+            transparent 5px
+        );
+
+    color: #3b2418;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+
+/* Main vintage frame */
+
+.home-page::before {
+    content: "";
+    position: fixed;
+    inset: 18px;
+    border: 1px solid rgba(82, 53, 35, 0.35);
+    pointer-events: none;
+    z-index: 10;
+}
+
+
+/* Small vintage label at the top */
+
+.home-page::after {
+    content: "THE GIRLHOOD EDITION  •  EST. 2026";
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 7px 22px;
+
+    font-family: Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+
+    color: #6b4a35;
+    border-top: 1px solid #9d7b5c;
+    border-bottom: 1px solid #9d7b5c;
+}
+
+
+/* Main heading */
+
+.home-page h1 {
+    position: relative;
+
+    margin: 90px auto 15px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -2px;
+
+    color: #3b2418;
+}
+
+
+/* Decorative lines around heading */
+
+.home-page h1::before,
+.home-page h1::after {
+    content: "✦";
+    display: inline-block;
+
+    margin: 0 25px;
+
+    font-size: 22px;
+    color: #9b7654;
+}
+
+
+/* Subtitle */
+
+.home-page h3 {
+    margin: 15px auto 10px;
+
+    font-family: Georgia, serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-style: italic;
+
+    color: #6b4a35;
+}
+
+
+/* Vintage newspaper-style question */
+
+.home-page h2 {
+    width: fit-content;
+    max-width: 850px;
+
+    margin: 0 auto 22px;
+    padding: 18px 45px;
+
+    font-family: Georgia, serif;
+    font-size: 32px;
+
+    color: #3b2418;
+
+    border-top: 3px double #79563d;
+    border-bottom: 3px double #79563d;
+
+    background: rgba(239, 222, 198, 0.55);
+}
+
+
+/* Description */
+
+.home-page p {
+    max-width: 850px;
+
+    margin: 0 auto 45px;
+
+    font-family: Georgia, serif;
+    font-size: 21px;
+    line-height: 1.8;
+
+    color: #4b3325;
+}
+
+
+/* Vintage button */
+
+.home-page a {
+    text-decoration: none;
+}
+
+.home-page button,
+.home-page .enter-button {
+    padding: 17px 38px;
+
+    background: #d5b896;
+    color: #3b2418;
+
+    border: 1px solid #8c6748;
+    border-radius: 3px;
+
+    font-family: Georgia, serif;
+    font-size: 20px;
+
+    cursor: pointer;
+
+    box-shadow:
+        4px 4px 0 rgba(91, 62, 42, 0.18);
+
+    transition: 0.25s ease;
+}
+
+
+/* Button hover */
+
+.home-page button:hover,
+.home-page .enter-button:hover {
+    transform: translateY(-3px);
+
+    background: #c9a982;
+
+    box-shadow:
+        6px 6px 0 rgba(91, 62, 42, 0.20);
+}
+
+
+/* Vintage divider */
+
+.home-page main::before {
+    content: "────────────────  ❦  ────────────────";
+
+    display: block;
+
+    margin: 0 auto 35px;
+
+    color: #8c6748;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+/* Footer */
+
+.home-page footer {
+    margin-top: 65px;
+
+    font-family: Georgia, serif;
+    font-size: 18px;
+
+    color: #6b4a35;
+}
+
+
+/* Slight old-paper effect on main content */
+
+.home-page main {
+    position: relative;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+    padding: 30px 40px 60px;
+
+    border-left: 1px solid rgba(100, 70, 50, 0.25);
+    border-right: 1px solid rgba(100, 70, 50, 0.25);
+}
+
+/* =========================================
+   VINTAGE NEWSPAPER BACKGROUND
+   ========================================= */
+
+.home-page {
+    position: relative;
+    min-height: 100vh;
+
+    /* Your vintage newspaper image */
+    background-image:
+        linear-gradient(
+            rgba(244, 229, 207, 0.55),
+            rgba(244, 229, 207, 0.55)
+        ),
+        url("final.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #3b2418;
+}
+
+
+/* Keeps your content above the newspaper */
+
+.home-page > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Vintage border around the page */
+
+.home-page::before {
+    content: "";
+    position: fixed;
+
+    top: 18px;
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+
+    border: 1px solid rgba(82, 55, 37, 0.45);
+
+    pointer-events: none;
+    z-index: 5;
+}
+
+
+/* Soft aged-paper effect */
+
+.home-page::after {
+    content: "";
+
+    position: fixed;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(80, 50, 30, 0.08),
+            transparent 18%
+        ),
+        radial-gradient(
+            circle at 85% 75%,
+            rgba(80, 50, 30, 0.07),
+            transparent 20%
+        );
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+
+/* LITTLE THINGS - FLIP CARD */
+
+.flip-inner {
+    position: relative;
+    width:85%;
+    height: 90%;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+/* Flip when clicked */
+.flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 10px solid #ead8c2;
+    box-shadow: 0 6px 15px rgba(60, 40, 25, 0.25);
+    box-sizing: border-box;
+}
+
+.flip-front {
+    background: #ead8c2;
+    text-align: center;
+}
+
+.flip-front img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.flip-front h2 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #43291f;
+    margin: 2px;
+    line-height: 1.1;
+}
+
+.flip-back {
+    background: #d8b894;
+    transform: rotateY(180deg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px;
+    text-align: center;
+}
+
+.flip-back p {
+    font-family: Georgia, serif;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #43291f;
+}
+.flip-card.flipped .flip-inner {
+    transform: rotateY(180deg);
+}
+.things-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+.flip-card {
+    width: 300px !important;
+    height: 420px;
+    margin: 0 !important;
+}
+
+/* ================================
+   PERFECT DAY — VINTAGE STYLE
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    background: url("vintage-bg.jpg") center/cover fixed;
+    color: #3f3024;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 60px 20px 35px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #4b3425;
+}
+
+header p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+
+/* MAIN CONTAINER */
+
+.perfect-day-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* EACH QUESTION */
+
+.day-section {
+    margin: 35px 0;
+    padding: 28px;
+
+    background: rgba(245, 234, 207, 0.88);
+
+    border: 2px solid #8c6b4f;
+    border-radius: 8px;
+
+    box-shadow:
+        0 5px 15px rgba(60, 40, 20, 0.15);
+}
+
+.day-section h2 {
+    text-align: center;
+    margin: 0 0 25px;
+
+    font-size: 25px;
+    color: #563b29;
+}
+
+
+/* OPTIONS */
+
+.day-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.day-option {
+    padding: 20px;
+
+    background: #ead8b8;
+
+    border: 1px solid #9b7959;
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    text-align: center;
+
+    transition: 0.25s ease;
+
+    box-shadow: 3px 3px 0 rgba(90, 60, 35, 0.12);
+}
+
+.day-option:hover {
+    transform: translateY(-4px) rotate(-0.5deg);
+
+    background: #dfc7a0;
+
+    box-shadow:
+        5px 7px 12px rgba(70, 45, 25, 0.2);
+}
+
+.day-option.selected {
+    background: #c9a77c;
+
+    border: 3px solid #65452f;
+
+    transform: translateY(-3px) rotate(0deg);
+
+    box-shadow:
+        0 6px 12px rgba(60, 40, 20, 0.25);
+}
+
+.day-option h3 {
+    margin: 0 0 8px;
+
+    font-size: 19px;
+    color: #4b3425;
+}
+
+.day-option p {
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* FINAL RESULT */
+
+.final-message {
+    margin: 55px auto;
+    padding: 35px;
+
+    max-width: 850px;
+
+    text-align: center;
+
+    background: #e5ceb0;
+
+    border: 3px double #765538;
+    border-radius: 8px;
+
+    box-shadow:
+        0 8px 20px rgba(60, 40, 20, 0.18);
+}
+
+.final-message h2 {
+    margin-top: 0;
+
+    font-size: 28px;
+    color: #513726;
+}
+
+.final-message p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 60px;
+    padding: 25px;
+
+    text-align: center;
+
+    border-top: 1px solid #8c6b4f;
+
+    font-size: 15px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .day-options {
+        grid-template-columns: 1fr;
+    }
+
+    .day-section {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Thank You Button */
+
+.thank-you-button-container {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.thank-you-button {
+    display: inline-block;
+    padding: 14px 30px;
+
+    background: #d8b88e;
+    color: #4a3025;
+
+    border: 1px solid #9a7655;
+    border-radius: 8px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    box-shadow: 0 4px 8px rgba(70, 45, 25, 0.18);
+
+    transition: 0.25s ease;
+}
+
+.thank-you-button:hover {
+    background: #cdaa7c;
+    transform: translateY(-2px);
+}
+
+
+
+
+/* =================================
+   THANK YOU PAGE
+   ================================= */
+
+.thank-you-page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+
+.thank-you-card {
+    width: 90%;
+    max-width: 800px;
+
+    padding: 60px 50px;
+
+    background: rgba(239, 222, 191, 0.92);
+
+    border: 2px solid #9a7655;
+    border-radius: 22px;
+
+    box-shadow: 0 10px 25px rgba(60, 40, 25, 0.20);
+
+    box-sizing: border-box;
+}
+
+
+.thank-you-decoration {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.thank-you-card h1 {
+    margin: 0 0 30px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 48px;
+
+    color: #42291f;
+}
+
+
+.thank-you-main {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 23px;
+    line-height: 1.6;
+
+    color: #4b3328;
+
+    margin: 0 auto 22px;
+}
+
+
+.thank-you-text {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 19px;
+    line-height: 1.7;
+
+    color: #5a4032;
+
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+
+.thank-you-line {
+    margin: 35px 0;
+
+    color: #9a7655;
+    font-size: 18px;
+}
+
+
+.thank-you-final {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    font-weight: bold;
+
+    color: #4a3025;
+
+    margin-bottom: 30px;
+}
+
+
+.team-text {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6;
+
+    color: #6b4c3b;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .thank-you-card {
+        width: 95%;
+        padding: 40px 25px;
+    }
+
+    .thank-you-card h1 {
+        font-size: 34px;
+    }
+
+    .thank-you-main {
+        font-size: 19px;
+    }
+
+    .thank-you-text {
+        font-size: 17px;
+    }
+}
+
+
+.back-button {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+
+    padding: 12px 28px;
+
+    background-color: #d8b994;
+    color: #47302a;
+
+    border: 1px solid #9a7655;
+    border-radius: 12px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.18);
+
+    z-index: 1000;
+
+    transition: 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #c9a77f;
+    transform: translateY(-2px);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("final.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ===== MAIN PAGE ===== */
+.page {
+    min-height: 100vh;
+    padding: 35px 20px 50px;
+    box-sizing: border-box;
+}
+
+/* ===== TITLE ===== */
+h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 58px;
+    color: #43291f;
+    margin: 10px 0 25px;
+    font-weight: bold;
+}
+
+/* ===== SUBTITLE ===== */
+.subtitle {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: #6b4a3b;
+    margin-bottom: 55px;
+}
+
+/* ===== DECORATIVE CONTENT AREA ===== */
+.content {
+    width: 75%;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ===== QUESTION ===== */
+.question {
+    border-top: 2px solid #8b674f;
+    border-bottom: 2px solid #8b674f;
+
+    padding: 22px 15px;
+    margin-bottom: 28px;
+
+    font-size: 38px;
+    font-weight: bold;
+    color: #43291f;
+}
+
+/* ===== DESCRIPTION ===== */
+.description {
+    font-size: 24px;
+    margin: 0 auto 35px;
+    color: #4b3024;
+    line-height: 1.5;
+}
+
+/* ===== BUTTON ===== */
+.enter-button {
+    display: inline-block;
+
+    padding: 13px 35px;
+
+    background: #d2b18c;
+    color: #43291f;
+
+    border: 1px solid #8b674f;
+    border-radius: 6px;
+
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+
+    box-shadow: 0 3px 6px rgba(70, 45, 30, 0.2);
+
+    transition: 0.2s ease;
+}
+
+.enter-button:hover {
+    transform: translateY(-2px);
+    background: #c8a47d;
+}
+
+/* ===== PAGE BACKGROUND ===== */
+body {
+    background-image: url("final.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ===== MAIN PAGE ===== */
+.page {
+    min-height: 100vh;
+    padding: 35px 20px 50px;
+    box-sizing: border-box;
+}
+
+/* ===== TITLE ===== */
+h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 58px;
+    color: #43291f;
+    margin: 10px 0 25px;
+    font-weight: bold;
+}
+
+/* ===== SUBTITLE ===== */
+.subtitle {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: #6b4a3b;
+    margin-bottom: 55px;
+}
+
+/* ===== DECORATIVE CONTENT AREA ===== */
+.content {
+    width: 75%;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ===== QUESTION ===== */
+.question {
+    border-top: 2px solid #8b674f;
+    border-bottom: 2px solid #8b674f;
+
+    padding: 22px 15px;
+    margin-bottom: 28px;
+
+    font-size: 38px;
+    font-weight: bold;
+    color: #43291f;
+}
+
+/* ===== DESCRIPTION ===== */
+.description {
+    font-size: 24px;
+    margin: 0 auto 35px;
+    color: #4b3024;
+    line-height: 1.5;
+}

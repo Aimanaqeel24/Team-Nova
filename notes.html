@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="final.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-button">
+    ← Back
+</a>
+    <div class="first">
+        <img src="image1.jpg.jpeg" alt="Front Card Image" class="card-image">
+    </div>
+
+    <div class="second">
+        <img src="image2.jpg.jpg" alt="Front Card Image" class="card-image">
+    </div>
+
+    <div class="third">
+        <img src="image3.jpg.jpg" alt="Front Card Image" class="card-image">
+    </div>
+
+    <div class="fifth">
+        <img src="image5 (1).jpg" alt="Front Card Image" class="card-image">
+    </div>
+
+    <div class="sixth">
+        <img src="image6.jpg" alt="Front Card Image" class="card-image">
+    </div>
+
+    <div class="seventh">
+        <img src="image7.jpg" alt="Front Card Image" class="card-image">
+    </div>
+
+   <div class="text2">
+        <p> You Are Enough!!</p>
+    </div>
+
+    <div class="text3">
+        <p>her vibe is perfect</p>
+    </div>
+
+
+    <!-- BACK BUTTON -->
+<button class="back-btn" onclick="history.back()">← Back</button>
+
+<!-- NOTE INPUT -->
+<div class="note-input-area">
+    <input
+        type="text"
+        id="noteInput"
+        placeholder="Write something beautiful..."
+        maxlength="100"
+    >
+
+    <button onclick="postNote()">Post ✨</button>
+</div>
+
+<!-- NOTES WILL APPEAR HERE -->
+<div id="notesWall"></div>
+
+</body>
+</html>

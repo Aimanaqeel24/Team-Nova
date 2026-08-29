@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Your Perfect Day</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="back-button" onclick="history.back()">
+    ← Back
+</button>
+
+    <!-- Heading -->
+    <header>
+        <h1>✨ Create Your Perfect Day ✨</h1>
+
+        <p>
+            A perfect day is made of little things.
+            Choose what feels most like you.
+        </p>
+    </header>
+
+
+    <main class="perfect-day-container">
+
+
+        <!-- QUESTION 1 -->
+        <section class="day-section">
+
+            <h2>🌅 How would you like to start your day?</h2>
+
+            <div class="day-options">
+
+                <div class="day-option">
+                    <h3>☕ Coffee & Quiet Time</h3>
+                    <p>A peaceful morning with your favorite drink.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🌸 A Fresh Morning Walk</h3>
+                    <p>Fresh air, sunshine and a calm start.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>😴 Sleep a Little Longer</h3>
+                    <p>No alarms, just a little extra rest.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🎶 Music in the Morning</h3>
+                    <p>Your favorite songs playing as you get ready.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUESTION 2 -->
+        <section class="day-section">
+
+            <h2>☀️ What sounds like your perfect afternoon?</h2>
+
+            <div class="day-options">
+
+                <div class="day-option">
+                    <h3>📖 Reading a Book</h3>
+                    <p>Getting lost in a story for a while.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>👯 Time With Friends</h3>
+                    <p>Laughing, talking and making memories together.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🎨 Something Creative</h3>
+                    <p>Drawing, writing, crafting or creating something new.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🛋️ A Cozy Afternoon</h3>
+                    <p>Staying home and enjoying your own little space.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUESTION 3 -->
+        <section class="day-section">
+
+            <h2>🌷 What makes your day instantly better?</h2>
+
+            <div class="day-options">
+
+                <div class="day-option">
+                    <h3>🍫 A Little Treat</h3>
+                    <p>Because sometimes a small treat changes everything.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>💌 A Sweet Message</h3>
+                    <p>A thoughtful message from someone you care about.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🎧 Your Favorite Music</h3>
+                    <p>One song can completely change your mood.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🌿 Peaceful Alone Time</h3>
+                    <p>A quiet moment to yourself with no pressure.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUESTION 4 -->
+        <section class="day-section">
+
+            <h2>🌙 Are you a...?</h2>
+
+            <div class="day-options">
+
+                <div class="day-option">
+                    <h3>🦉 Night Owl</h3>
+                    <p>You come alive when the world gets quiet.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🌞 Early Bird</h3>
+                    <p>You love getting an early start to the day.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>😴 I Just Love Sleeping</h3>
+                    <p>Sleep is definitely one of life's little joys.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>✨ Depends on the Day</h3>
+                    <p>Your mood decides everything.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUESTION 5 -->
+        <section class="day-section">
+
+            <h2>💫 How would you end your perfect day?</h2>
+
+            <div class="day-options">
+
+                <div class="day-option">
+                    <h3>🌙 Watching the Stars</h3>
+                    <p>A quiet night under the sky.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>📖 Reading Before Bed</h3>
+                    <p>A peaceful story before falling asleep.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🎬 A Comfort Movie</h3>
+                    <p>Your favorite movie and a cozy evening.</p>
+                </div>
+
+                <div class="day-option">
+                    <h3>🎵 Listening to Music</h3>
+                    <p>Ending the day with songs you love.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL RESULT -->
+        <section class="final-message">
+
+            <h2>💌 Your Perfect Day Personality</h2>
+
+            <p>
+                You find happiness in the little things. You enjoy moments
+                that feel peaceful, meaningful and completely your own.
+                Your perfect day doesn't need to be extraordinary —
+                it's the small moments that make it special.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>✨ Your day. Your choices. Your perfect little world. ✨</p>
+    </footer>
+<script>
+
+const questions = document.querySelectorAll(".day-section");
+const resultBox = document.querySelector(".final-message");
+const resultTitle = document.querySelector(".final-message h2");
+const resultText = document.querySelector(".final-message p");
+
+const personalities = [
+    {
+        title: "☕ The Cozy Dreamer",
+        text: "Your perfect day is warm, peaceful and full of little comforts. You enjoy quiet moments, your favorite things and taking life at your own pace. For you, happiness is found in the simple things."
+    },
+    {
+        title: "🌸 The Peaceful Soul",
+        text: "Your perfect day is calm, refreshing and stress-free. You love peaceful surroundings, fresh air and moments where you can simply relax and enjoy being yourself."
+    },
+    {
+        title: "🎶 The Happy Social Butterfly",
+        text: "Your perfect day is full of laughter, music and good company. You love making memories with people around you and turning ordinary moments into fun experiences."
+    },
+    {
+        title: "📖 The Creative Soul",
+        text: "Your perfect day is filled with imagination and inspiration. You enjoy creating, dreaming and finding beauty in ordinary moments."
+    },
+    {
+        title: "🎀 The Soft-Hearted Girl",
+        text: "You appreciate meaningful moments and little things that make you feel happy and comfortable. Your perfect day is gentle, warm and full of heart."
+    },
+    {
+        title: "🌞 The Sunshine Girl",
+        text: "You bring bright energy into your day. You enjoy cheerful moments, fun experiences and anything that leaves you with a genuine smile."
+    },
+    {
+        title: "🌙 The Night Owl",
+        text: "You love your own rhythm and enjoy taking your time. Your perfect day is comfortable, flexible and completely your own."
+    },
+    {
+        title: "🦋 The Free Spirit",
+        text: "You love freedom and spontaneous moments. You don't need every part of your day planned—you enjoy doing what feels right in the moment."
+    },
+    {
+        title: "💌 The Little-Moments Girl",
+        text: "You believe the best days are made from tiny things. A favorite drink, a good song, a quiet moment or a sweet memory can make your whole day."
+    },
+    {
+        title: "🌿 The Calm Explorer",
+        text: "You enjoy discovering new things while keeping a peaceful balance. Your perfect day has just enough adventure without losing your sense of comfort."
+    },
+    {
+        title: "✨ The Main Character",
+        text: "You enjoy making ordinary moments feel special. Your perfect day has personality, memorable moments and little details that make you feel like the main character."
+    },
+    {
+        title: "🌷 The Gentle Adventurer",
+        text: "You like trying new things while still appreciating comfort and peaceful moments. Your perfect day is a beautiful mix of excitement and relaxation."
+    }
+];
+
+
+// Create the New Person button
+const newPersonButton = document.createElement("button");
+
+newPersonButton.innerHTML = "✨ New Person";
+
+newPersonButton.className = "new-person-button";
+
+resultBox.appendChild(newPersonButton);
+
+
+// Select answers
+questions.forEach(question => {
+
+    const options = question.querySelectorAll(".day-option");
+
+    options.forEach(option => {
+
+        option.addEventListener("click", function() {
+
+            // Remove previous selection for this question
+            options.forEach(item => {
+                item.classList.remove("selected");
+            });
+
+            // Select this option
+            this.classList.add("selected");
+
+            // Check if ALL questions are answered
+            checkComplete();
+
+        });
+
+    });
+
+});
+
+
+// Check whether all 7 questions are answered
+function checkComplete() {
+
+    let answered = 0;
+
+    questions.forEach(question => {
+
+        if (question.querySelector(".selected")) {
+            answered++;
+        }
+
+    });
+
+    // Personality appears ONLY after every question is answered
+    if (answered === questions.length) {
+
+        showPersonality();
+
+    }
+
+}
+
+
+// Show personality
+function showPersonality() {
+
+    let score = 0;
+
+    questions.forEach((question, index) => {
+
+        const selected =
+            question.querySelector(".selected");
+
+        const options =
+            Array.from(question.querySelectorAll(".day-option"));
+
+        const selectedIndex =
+            options.indexOf(selected);
+
+        score += (selectedIndex + 1) * (index + 2);
+
+    });
+
+
+    const personality =
+        personalities[score % personalities.length];
+
+
+    resultTitle.innerHTML =
+        "✨ " + personality.title;
+
+    resultText.innerHTML =
+        personality.text;
+
+    resultBox.style.display = "block";
+
+    newPersonButton.style.display = "inline-block";
+
+    resultBox.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+
+}
+
+
+// NEW PERSON BUTTON
+newPersonButton.addEventListener("click", function() {
+
+    // Clear every selected answer
+    questions.forEach(question => {
+
+        const options =
+            question.querySelectorAll(".day-option");
+
+        options.forEach(option => {
+            option.classList.remove("selected");
+        });
+
+    });
+
+
+    // Hide the result again
+    resultBox.style.display = "none";
+
+
+    // Scroll back to the first question
+    questions[0].scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+
+});
+
+</script>
+
+<div class="thank-you-button-container">
+    <a href="thankyou-page.html" class="thank-you-button">
+        Finish My Perfect Day ✨
+    </a>
+</div>
+
+
+</body>
+</html>

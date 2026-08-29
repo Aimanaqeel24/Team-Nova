@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Things That Make My Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="back-button" onclick="history.back()">
+    ← Back
+</button>
+
+    <h1>✨ Little Things That Make My Day ✨</h1>
+
+    <div class="things-grid">
+
+        <!-- CARD 1 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="tea.jpg" alt="Little Thing">
+                        <h2>☕ A Warm Cup of Tea</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>Sometimes a warm cup of tea and a quiet moment
+                    are enough to make an ordinary day feel special.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 2 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="camera.jpg" alt="Little Thing">
+                        <h2>📸 Little Moments</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p> Capturing little moments makes ordinary days worth remembering</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 3 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="candle.jpg" alt="Little Thing">
+                        <h2>🕯️ A Little Light</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>"Even a small light can brighten the darkest day."</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 4 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="pen.jpg" alt="Little Thing">
+                        <h2>🖋️ Words That Matter</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>"Write your dreams down, and turn your thoughts into something beautiful."</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 5 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="moon.jpg" alt="Little Thing">
+                        <h2>🌙 Moonlight Moments</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>"Even in the darkest nights, there is always a little light to guide you."</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 6 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="bts.jpg" alt="Little Thing">
+                        <h2>💜 A Little Piece of Happiness</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>"Sometimes, the people who inspire us can make even an ordinary day feel special."</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 7 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="clock.jpg" alt="Little Thing">
+                        <h2>⏰ Every Moment Matters</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>"Don't wait for the perfect moment. Make this moment special."</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 8 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="music.jpg" alt="Little Thing">
+                        <h2>🎵 Melodies of Memories</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>"Some songs don't just play music, they bring beautiful memories back to life."</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CARD 9 -->
+        <div class="thing-card">
+            <div class="flip-card">
+                <div class="flip-inner">
+
+                    <div class="flip-front">
+                        <img src="memory.jpg" alt="Little Thing">
+                        <h2>📜 Sweet Memories</h2>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>"Some old pages hold more than words — they hold memories, warmth, and little moments of joy."</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+<script>
+    const card = document.querySelector(".flip-card");
+
+    card.addEventListener("click", function () {
+        this.classList.toggle("flipped");
+    });
+</script>
+
+</body>
+</html>
